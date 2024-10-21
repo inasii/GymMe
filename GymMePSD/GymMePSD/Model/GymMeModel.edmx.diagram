@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="825f3de7abf04a48aff8a1981079756a" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="DatabaseGYMModel.MsCart" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseGYMModel.MsSupplement" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseGYMModel.MsSupplementType" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseGYMModel.MsUser" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseGYMModel.TransactionDetail" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseGYMModel.TransactionHeader" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <AssociationConnector Association="DatabaseGYMModel.FK_MsCart_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseGYMModel.FK_MsCart_ToTable_1" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseGYMModel.FK_MsSupplement_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseGYMModel.FK_TransactionDetail_ToTable_1" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseGYMModel.FK_TransactionHeader_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseGYMModel.FK_TransactionDetail_ToTable" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
