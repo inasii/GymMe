@@ -1,3 +1,12 @@
+# Project
+Members working on this group project 
+
+- Wanda Ayu Hafidzoh (Wandayu03)
+- Inas Luluah Asri (inasii)
+- Rogate Agustina Hutapea (Rogate25)
+- Vania Nathania Azrai (VaniaNathania)
+
+
 <h1>Documentation</h1>
 
 <h3>#1 Login Page</h3>
